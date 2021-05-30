@@ -31,7 +31,7 @@ Focus on the very first input we get for each K: it's 8, 4, 2, 1! It seems like 
 
 Now that we have a pattern, we ought to prove it… In case you are time constrained or have difficulty proving it in the first place, you can just go ahead and use the script i.e write out your proposed solution, and test as many parameter values as you can with your two solutions. You are probably going to miss most parameter values, but that’s okay: patterns rarely break for N >= 4030, and it’s worth the penalty to see if you’re right.
 
-<mark>**Notice that the conditions in this problem can be tested with a simple script(code). You shouldn’t worry about complexity on your script, since we’ll only care about small values of N, as larger answers will be difficult to inspect manually.**</mark>
+<mark> **Notice that the conditions in this problem can be tested with a simple script(code). You shouldn’t worry about complexity on your script, since we’ll only care about small values of N, as larger answers will be difficult to inspect manually.** </mark>
 
 Now that we have an algorithm which checks if an answer is correct, we can create another function which generates all possible answers, and use both functions to generate a (slow!) solution.
 
